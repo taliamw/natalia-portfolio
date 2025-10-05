@@ -686,7 +686,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
+  background: color-mix(in srgb, var(--background-color), transparent 20%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -699,7 +699,7 @@ section,
 
 .hero h2 {
   margin: 0;
-  font-size: 64px;
+  font-size: 40px;
   font-weight: 700;
 }
 
